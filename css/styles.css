@@ -115,6 +115,14 @@ img {
 /* ================================ first section ================================= */
 .first-section {
   background-color: rgba(46, 47, 66, 1);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-bottom: 188px;
   padding-top: 188px;
 }
@@ -312,5 +320,23 @@ img {
   width: 264px;
 }
 .footer-container {
-  display: block;
+  display: flex;
+  gap: 120px;
+}
+.footer-soc-media {
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.footer-card-soc {
+  display: flex;
+  gap: 16px;
+}
+.footer-icons {
+  width: 24px;
+  height: 24px;
 }
