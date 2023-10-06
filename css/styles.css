@@ -257,7 +257,20 @@ img {
 .text-third {
   text-align: center;
 }
-
+/* .third-cards .third-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.third-cards .soc-link {
+  fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
+} */
 /* ============================ fourth section =============================== */
 
 .section-four {
@@ -319,24 +332,33 @@ img {
   letter-spacing: 0.02em;
   width: 264px;
 }
-.footer-container {
-  display: flex;
-  gap: 120px;
-}
 .footer-soc-media {
   color: #fff;
-
+  margin-bottom: 16px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
 }
-.footer-card-soc {
+.soc-cards {
   display: flex;
   gap: 16px;
 }
-.footer-icons {
+.soc-cards .footer-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.soc-cards .soc-item {
+  fill: #f4f4fd;
   width: 24px;
   height: 24px;
+}
+.footer-container {
+  display: flex;
+  gap: 120px;
 }
