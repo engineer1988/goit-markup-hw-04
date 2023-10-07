@@ -154,6 +154,7 @@ img {
   background-size: cover;
   padding-bottom: 188px;
   padding-top: 188px;
+  max-width: 1440px;
 }
 
 .first-title {
@@ -186,6 +187,10 @@ img {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 
 .btn:hover,
