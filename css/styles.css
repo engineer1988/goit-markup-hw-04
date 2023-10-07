@@ -334,14 +334,14 @@ img {
 }
 .third-soc-cards .center:hover,
 .third-soc-cards .center:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
