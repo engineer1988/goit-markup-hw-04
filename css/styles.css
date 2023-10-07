@@ -155,6 +155,7 @@ img {
   padding-bottom: 188px;
   padding-top: 188px;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .first-title {
@@ -249,10 +250,12 @@ img {
   background: #f4f4fd;
   margin-bottom: 8px;
   padding: 24px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
 }
 .second-icons-item {
-  width: 64px;
-  height: 64px;
   flex-shrink: 0;
   fill: #2e2f42;
 }
