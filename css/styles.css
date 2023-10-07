@@ -279,7 +279,8 @@ img {
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .text-our-team {
@@ -302,7 +303,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.third-soc-cards .third-soc-link {
+.third-soc-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -317,12 +318,17 @@ img {
 }
 .third-soc-cards .third-soc-item {
   fill: #f4f4fd;
-  width: 16px;
-  height: 16px;
+  /* width: 16px;
+  height: 16px; */
 }
 .third-soc-cards .third-soc-link:hover,
 .third-soc-cards .third-soc-link:focus {
   background-color: #31d0aa;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* ============================ fourth section =============================== */
 
