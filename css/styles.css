@@ -484,14 +484,19 @@ img {
 }
 .soc-cards .soc-item {
   fill: #f4f4fd;
-  width: 24px;
-  height: 24px;
+  /* width: 24px;
+  height: 24px; */
 }
 .footer-container {
   display: flex;
-  gap: 120px;
+  /* gap: 120px; */
+  align-items: baseline;
 }
 .soc-cards .footer-soc-link:hover,
 .soc-cards .footer-soc-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-first {
+  margin-right: 120px;
 }
